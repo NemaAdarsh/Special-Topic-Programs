@@ -8,7 +8,8 @@ class SortString
 		{
 			for(int i = j + 1; i < arr.length; i++)
 			{
-				if(arr[i].compareTo(arr[j]) < 0)
+                //if(arr[i].compareTo(arr[j]) < 0)
+				if(arr[i].compareToIgnoreCase(arr[j]) < 0) //to make alphabetical and ignore uppercase
 				{
 					String t = arr[j];
 					arr[j] = arr[i];
