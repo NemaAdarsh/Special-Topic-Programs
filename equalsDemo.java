@@ -11,9 +11,9 @@ class equalsDemo
 		System.out.println(s1 + " equals " + s3 + " -> " + s1.equals(s3));
 		System.out.println(s1 + " equals " + s4 + " -> " + s1.equals(s4));
 		System.out.println(s1 + " equalsIgnoreCase " + s4 + " -> " +
-		s1.equalsIgnoreCase(s4));
+		s1.equalsIgnoreCase(s4)); //checks whether the same type of characters or not then returns the answer
 		String s5=s2;
-		System.out.println(s1==s2);//what will be the output????????
+		System.out.println(s1==s2);//it will be true only
 		System.out.println(s1==s5);
 		System.out.println(s1.equals(s5));
 	}
