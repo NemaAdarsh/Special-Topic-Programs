@@ -10,3 +10,5 @@ class EqualsNotEqualTo
 		System.out.println(s1 + " == " + s2 + " -> " + (s1 == s3));
 	}
 }
+
+//s2 is not creating a reference to s1 its a new object thats why s1==s2 is false and the last one is true
