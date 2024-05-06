@@ -1,4 +1,4 @@
-
+//to show arithmetic operations
 
 class ArithmeticDemo {
     public static void main (String[] args) {
