@@ -1,3 +1,4 @@
+//Example of hierachical inheritance
 class Animal
 {
     void eat(){
