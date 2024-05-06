@@ -38,3 +38,4 @@ public class Inheritance2
 
     }
 }
+//NO CLASS CAN BE A SUPERCLASS OF ITSELF
