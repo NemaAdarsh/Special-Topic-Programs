@@ -1,0 +1,43 @@
+Organization Of Memory
+                                   0x000080
+low addr   --------------------                                   ---------------
+            | Code              | = object    --->               |     CPU      |   
+            ---------------------                                 ---------------
+            |  Static            |
+            ----------------------
+            | HEAP               |
+            ----------------------
+            | {       }          |
+            ----------------------
+            |   STACK             |    High addr
+            -----------------------  
+
+compile checks:
+production rules are used to compile and check if the program is syntatically correct
+next phase is symantic check, mismatch
+
+code is converted into intermediate form for the compiler then it applies optimization
+1. machine independent technique
+2. machine dependent technique
+
+then compiler converts code to assembly
+then assembly to binary
+
+compiler = translator
+
+loader/linkers
+take a copy of the program, 
+abc.c = abc.o (binary)
+then loader takes a copy and loads it onto the main memory (RAM)
+
+program data is stored in Static
+
+malloc calloc etc stored in HEAP
+heap memory is for dynamic 
+
+within program when functions are called (main), the activation record is created
+AR = gives space for variables that are used 
+when the caller is called, the activation record is removed in the stack boundary.
+
+in java, garbage collection is used for releasing space in heap
+stack is automatic memory
