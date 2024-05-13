@@ -11,6 +11,8 @@ low addr   --------------------                                   --------------
             ----------------------
             |   STACK             |    High addr
             -----------------------  
+            
+Single rooted Hierachy makes sure we dont need calloc malloc etc
 
 compile checks:
 production rules are used to compile and check if the program is syntatically correct
