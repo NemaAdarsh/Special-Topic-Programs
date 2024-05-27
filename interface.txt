@@ -1,0 +1,6 @@
+interface defines a type therefore a reference variable of an interface type created
+
+Series S1
+
+series is interface
+bytwos is class which implements series
