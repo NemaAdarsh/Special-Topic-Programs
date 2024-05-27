@@ -20,7 +20,7 @@ public class Exception7
 		}
 		catch(FileNotFoundException fnfe)
 		{
-			System.out.println(fnfe);
+			System.out.println(fnfe); //this fnfe is system predefined message
 		}
 		finally
 		{
