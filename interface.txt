@@ -8,3 +8,5 @@ bytwos is class which implements series
 
 An interface can include variables, but they are not instance variables,
 they are implicitly public, final, static and must be initialized. Thus, they are essentially constants.
+
+One interface can inherit another using the keyword - extends
