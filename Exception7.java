@@ -10,7 +10,7 @@ public class Exception7
 		
 		try
 		{
-			myFile = new File("excep6.java");
+			myFile = new File("Exception6.java");
 			in = new Scanner(myFile);
 			in.close();
 		}
