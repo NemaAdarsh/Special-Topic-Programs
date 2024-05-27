@@ -11,6 +11,8 @@ they are implicitly public, final, static and must be initialized. Thus, they ar
 
 One interface can inherit another using the keyword - extends
 
+When a class implements an interface that inherits another interface, it must provide implementations for all
+methods declared in the interface inheritance chanin (otherwise be abstract)
 
 interface A 
 {
