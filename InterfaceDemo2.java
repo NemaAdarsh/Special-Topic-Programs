@@ -43,7 +43,7 @@ public class InterfaceDemo2
 	{
         ByTwos ob = new ByTwos();
         
-        for(int i = 0; i < 5; i++)
+        for(int i = 0; i < 10; i++)
 		{
             System.out.print("Next value is " + ob.getNext());
             System.out.println(" Previous value is " + ob.getPriorValue());
