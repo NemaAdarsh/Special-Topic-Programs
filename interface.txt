@@ -10,3 +10,19 @@ An interface can include variables, but they are not instance variables,
 they are implicitly public, final, static and must be initialized. Thus, they are essentially constants.
 
 One interface can inherit another using the keyword - extends
+
+
+interface A 
+{
+    m1
+}
+
+interface B extends A 
+{
+    m2
+}
+class m1() implements B
+{
+    m1(){}
+    m2(){}   both should be defined, if both are not defined then they should be defined as abstract
+}
